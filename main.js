@@ -29,6 +29,7 @@ function getGitHubProfileInfos() {
       userLink.href = data.html_url
       UserImage.src = data.avatar_url
       userLogin.textContent = data.login
+      companyName.textContent = data.company
     })
 }
 
